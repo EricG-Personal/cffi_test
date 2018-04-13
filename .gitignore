@@ -49,3 +49,13 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+#
+#
+#
+build/
+*.so
+*.o
+_sample_lib.c
+cffi_test.egg-info/
+__pycache__/

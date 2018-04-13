@@ -2,5 +2,5 @@
 
 void a_sample_function( int a )
 {
-    printf( "a_sample_function: %d", a );
+    printf( "a_sample_function: %d\n", a );
 }
