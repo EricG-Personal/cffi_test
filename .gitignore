@@ -59,3 +59,4 @@ build/
 _sample_lib.c
 cffi_test.egg-info/
 __pycache__/
+.eggs/

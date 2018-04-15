@@ -8,7 +8,7 @@ HEADER = """
 
 ffibuilder = FFI()
 
-ffibuilder.set_source( "_sample_lib", HEADER, include_dirs = INCLUDE_DIRS, sources = SOURCES, libraries = [] )
+ffibuilder.set_source( "cffi_test._sample_lib", HEADER, include_dirs = INCLUDE_DIRS, sources = SOURCES, libraries = [] )
 
 ffibuilder.cdef( """
     void a_sample_function( int a );
